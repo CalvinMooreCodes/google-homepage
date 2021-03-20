@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>google.com</title>
+    <style>
+ /* css code on styling elements */
+body {
+    text-align: center;
+    overflow:none;
+    }
+
+main {
+    height: 600px;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+    padding: 0px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover {
+text-decoration: underline;
+}
+
+img {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+input {
+    border-radius: 30px;
+}
+
+/* css code on styling classes */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* css code on styling id's */
+#center {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#buttons {
+    margin-top: 30px;
+}
+
+#top-nav {
+    display: flex;
+    padding: 0px;
+    margin-left: auto;
+    min-height: 0;
+    justify-content:right;
+}
+
+#bottom-l-nav {
+    display: flex;  
+    margin: 0px;
+    padding: 0px; 
+justify-content: left;
+}
+
+#bottom-r-nav {
+    display: flex;
+    margin: 0px;
+    padding: 0px; 
+justify-content: right;
+}
+    </style>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="nav-container"> 
+    <ul id="top-nav">
+        <li class="top-li"><a href="#">Gmail</a></li>
+        <li class="top-li"><a href="#">Afbeeldingen</a></li>
+        <li class="top-li"><a href="#">Google-apps</a></li>
+        <li class="top-li"><a href="#">Google-account</a></li>
+    </ul>
+    </div>
+ <main>
+    <img id="center" src="google-logo.png" alt="picture of google logo">
+
+    <form id="form">
+        <input type="text">
+    </form>
+    <div id="buttons">
+    <button>Google zoeken</button>
+    <button>Ik doe een gok</button>
+    </div>
+</main>
+    <div class="nav-container">
+    <ul id="bottom-l-nav">
+        <li class="bottom-li"><a href="#">Over</a></li>
+        <li class="bottom-li"><a href="#">Adverteren</a></li>
+        <li class="bottom-li"><a href="#">Bedrijf</a></li>
+        <li class="bottom-li"><a href="#">Hoe Google zoeken werkt</a></li>
+    </ul>
+    <ul id="bottom-r-nav">
+        <li class="bottom-li"><a href="#">Privacy</a></li>
+        <li class="bottom-li"><a href="#">Voorwaarden</a></li>
+        <li class="bottom-li"><a href="#">Instellingen</a></li>
+    </ul>
+    </div>
+
+    </body>
+</html>
